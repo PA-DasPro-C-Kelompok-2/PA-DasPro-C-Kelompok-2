@@ -83,6 +83,16 @@ Jika nomor 3 yang di input di menu awal, maka program akan berhenti dan menampil
 
 Berikut adalah menu admin jika di menu login memasukkan nama dan password admin.
 
+### Tampilkan Produk
+
+Gambar
+
+Jika nomor 1 yang diinput maka akan menampilkan apa saja produk perhiasan dengan tabel yang rapi.
+
+### Tambah Produk
+
+Gambar
+
 ## Menu User
 
 **Gambar**
