@@ -77,6 +77,12 @@ Jika berhasil maka akan muncul pesan akun sudah terdaftar.
 
 Jika nomor 3 yang di input di menu awal, maka program akan berhenti dan menampilkan pesan di atas.
 
+## Menu Admin
+
+**Gambar**
+
+Berikut adalah menu admin jika di menu login memasukkan nama dan password admin.
+
 ## Menu User
 
 **Gambar**
