@@ -1,1 +1,1 @@
-# PA-DasPro-C-Kelompok-2
+# Sistem Manajemen Toko Perhiasan
