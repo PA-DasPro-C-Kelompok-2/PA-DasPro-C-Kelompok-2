@@ -181,3 +181,13 @@ Jika nomor 6 yang diinput maka akan kembali ke menu utama.
 
 Jika nama akun dan password di menu login benar sebagai user, maka akan menampilkan menu user. Disini terdapat 5 pilihan yaitu lihat produk, transaksi pembelian, lihat saldo, top up saldo, cari produk, sorting produk dan logout.
 
+### Lihat Produk
+
+Gambar
+
+Jika nomor 1 yang diinput maka akan menampilkan semua produk.
+
+### Transaksi Pembelian
+
+Gambar
+
