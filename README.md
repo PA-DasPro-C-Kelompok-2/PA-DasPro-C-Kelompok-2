@@ -5,6 +5,24 @@ Program ini adalah sebuah sistem manajemen toko perhiasan. Terdapat 2 role yaitu
 
 ## Library
 Terdapat 5 library yabf kami gunakan yaitu:
-1. PrettyTable
-   Membuat tabel secara otomatis dan rapi
+1. PrettyTable membuat tabel secara otomatis dan rapi
 2. os
+3. pwinput
+4. time
+5. json
+
+## Fitur
+### User
+1. Lihat Produk
+2. Transaksi Pembelian
+3. Lihat Saldo E-Money
+4. Top Up Saldo E-Money
+5. Cari Produk
+6. Sorting Produk
+
+### Admin
+1. Lihat Produk
+2. Tambah Produk
+3. Perbarui Produk
+4. Hapus Produk
+5. Cari Produk
