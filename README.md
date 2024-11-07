@@ -178,9 +178,10 @@ Jika nomor 6 yang diinput maka akan kembali ke menu utama.
 
 ## Menu User
 
-![Screenshot 2024-11-07 112722](https://github.com/user-attachments/assets/37331c31-eed1-4d41-a760-1981ee93e71c)
+![Screenshot 2024-11-07 114244](https://github.com/user-attachments/assets/5e864636-5258-4d4d-bc83-302eb8391eb3)
 
-Jika nama akun dan password di menu login benar sebagai user, maka akan menampilkan menu user. Disini terdapat 5 pilihan yaitu lihat produk, transaksi pembelian, lihat saldo, top up saldo, cari produk, sorting produk dan logout.
+Jika nama akun dan password di menu login benar sebagai user, maka akan menampilkan menu user. Disini terdapat 5 pilihan yaitu lihat produk, lihat saldo, top up saldo, transaksi, cari produk, ![Uploading image.png…]()
+ sorting produk dan logout.
 
 ### Lihat Produk
 
