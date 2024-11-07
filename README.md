@@ -30,13 +30,22 @@ Terdapat 5 library yab=ng kami gunakan yaitu:
 
 # Penggunaan Program
 
-## Menu Awal
+## Menu Utama
 
 ![Screenshot 2024-11-07 104302](https://github.com/user-attachments/assets/95e179be-037f-4f43-953b-34599791cde5)
 
-Tampilan yang pertama kali muncul saat menjalankan program adalah menu awal. Disini terdapat 3 pilihan yaitu Login, Registrasi dan Keluar.
+Tampilan yang pertama kali muncul saat menjalankan program adalah menu utama. Disini terdapat 3 pilihan yaitu Login, Registrasi dan Keluar.
 
 ## Menu Login
+### Login Admin
+
+![Screenshot 2024-11-07 104521](https://github.com/user-attachments/assets/26278fc1-bdc1-43af-a65b-6e9fe2eb34ef)
+
+Jika ingin masuk ke menu admin masukkan:
+nama akun: admin
+password: admin123
+Jika benar maka akan di arahkan ke menu admin.
+
 ### Login User
 
 **Gambar**
@@ -51,14 +60,6 @@ Lalu masukkan password yang sesuai dengan nama akun yang telah diinput sebelumny
 
 Jika nama akun dan password yang di input benar maka akan muncul login sukses dan akan di arahkan ke menu user.
 
-### Login Admin
-
-**Gambar**
-
-Jika ingin masuk ke menu admin kata masukkan:
-nama akun: admin
-password: admin123
-Jika benar maka akan di arahkan ke menu admin.
 
 ### Registrasi
 
