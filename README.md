@@ -62,12 +62,11 @@ Jika nama akun dan password yang di input benar maka akan muncul login sukses da
 
 ### Registrasi
 
-**Gambar**
+![Screenshot 2024-11-07 105536](https://github.com/user-attachments/assets/a10da00a-e218-45d4-bc23-ade6bbd8927b)
 
 Jika nomor 2 yang diinput di menu awal, maka akan di arahkan untuk registrasi telebih dahulu untuk membuat akun. Pertama masukkan nama akun yang ingin di registrasi.
 
 **Gambar**
-
 Lalu masukkan password
 
 **Gambar**
@@ -76,37 +75,41 @@ Jika berhasil maka akan muncul pesan akun sudah terdaftar.
 
 ### Keluar Program
 
-**Gambar**
+![Screenshot 2024-11-07 110001](https://github.com/user-attachments/assets/a6978fca-9ddf-4aa7-8b84-e64843ec66f0)
 
-Jika nomor 3 yang di input di menu awal, maka program akan berhenti dan menampilkan pesan di atas.
+Jika nomor 3 yang di input di menu utama, maka program akan berhenti dan menampilkan pesan di atas.
 
 ## Menu Admin
 
-**Gambar**
+![Screenshot 2024-11-07 110105](https://github.com/user-attachments/assets/9c561710-95c8-4b5c-98dd-f53520f90c75)
 
 Berikut adalah menu admin jika di menu login memasukkan nama dan password admin.
 
 ### Tampilkan Produk
 
-Gambar
+![Screenshot 2024-11-07 110217](https://github.com/user-attachments/assets/304f34d8-81e6-4494-a637-4298cb79864e)
 
 Jika nomor 1 yang diinput maka akan menampilkan apa saja produk perhiasan dengan tabel yang rapi.
 
 ### Tambah Produk
 
-Gambar
+![Screenshot 2024-11-07 110506](https://github.com/user-attachments/assets/606dbf4f-5e09-495d-9d43-55bce58010e9)
 
-Jika nomor 2 yang diinput maka akan masuk ke menu menambahkan produk
+Jika nomor 2 yang diinput maka akan masuk ke menu menambahkan produk. Masukkan nama produk yang ingin ditambah
 
-Gambar
+![Screenshot 2024-11-07 110540](https://github.com/user-attachments/assets/b1f8f9cc-17fe-4946-85a8-653e05a522c0)
 
-Jika nama produk sudah diinput maka diarahkan untuk memasukkan harga produk.
+Jika nama produk sudah diinput maka diarahkan untuk memasukkan harga produk. Harga produk tidah boleh melebihi dari 10 digit.
 
-Gambar
+![Screenshot 2024-11-07 110655](https://github.com/user-attachments/assets/2ea20d9a-709c-4aff-815f-0572918038e2)
+
+Apabila memasukkan harga produk melebihi 10 digit, maka akan menampilkan pesan diatas.
+
+![Screenshot 2024-11-07 110815](https://github.com/user-attachments/assets/4c503bd1-f798-42d1-997a-32897f3197ab)
 
 Selanjutnya masukkan stok produk
 
-Gambar
+![Screenshot 2024-11-07 110836](https://github.com/user-attachments/assets/240b3431-20ee-4f20-a1ab-d320015eb1c0)
 
 Jika berhasil maka akan muncul pesan seperti gambar di atas.
 
