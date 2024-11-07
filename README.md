@@ -6,10 +6,9 @@ Program ini adalah sebuah sistem manajemen toko perhiasan. Terdapat 2 role yaitu
 ## Library
 Terdapat 5 library yab=ng kami gunakan yaitu:
 1. PrettyTable membuat tabel secara otomatis dan rapi
-2. os
-3. pwinput
-4. time
-5. json
+2. os membuar program yang memerlukan manajemen file atau interaksi dengan sistem operasi dan membersihkan terminal.
+3. pwinput untuk membuat password tidak langsung terlihat
+4. json untuk menyimpan data yang bisa dibaca manusia dan memudahkan pertukaran data antar-sistem.
 
 ## Fitur
 ### User
