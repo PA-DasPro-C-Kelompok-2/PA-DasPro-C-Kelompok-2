@@ -48,18 +48,17 @@ Jika benar maka akan di arahkan ke menu admin.
 
 ### Login User
 
-**Gambar**
+![Screenshot 2024-11-07 104954](https://github.com/user-attachments/assets/338f5c2e-32f4-4387-85c0-7df25dcba0c4)
 
 Jika nomor 1 yang di input di menu awal, maka akan diarahkan untuk login. Pertama masukkan nama akun yang sudah terdaftar.
 
-**Gambar**
+![Screenshot 2024-11-07 105003](https://github.com/user-attachments/assets/997b6870-a39f-485e-85d4-bef660120329)
 
 Lalu masukkan password yang sesuai dengan nama akun yang telah diinput sebelumnya.
 
-**Gambar**
+![Screenshot 2024-11-07 105012](https://github.com/user-attachments/assets/f0293042-1879-4acf-aedf-f5d721960126)
 
 Jika nama akun dan password yang di input benar maka akan muncul login sukses dan akan di arahkan ke menu user.
-
 
 ### Registrasi
 
