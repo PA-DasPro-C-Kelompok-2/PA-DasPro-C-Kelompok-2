@@ -180,7 +180,7 @@ Jika nomor 6 yang diinput maka akan kembali ke menu utama.
 
 ![Screenshot 2024-11-07 114244](https://github.com/user-attachments/assets/5e864636-5258-4d4d-bc83-302eb8391eb3)
 
-Jika nama akun dan password di menu login benar sebagai user, maka akan menampilkan menu user. Disini terdapat 5 pilihan yaitu lihat produk, lihat saldo, top up saldo, transaksi, cari produk, ![Uploading image.png…]()
+Jika nama akun dan password di menu login benar sebagai user, maka akan menampilkan menu user. Disini terdapat 5 pilihan yaitu lihat produk, lihat saldo, top up saldo, transaksi, cari produk, ![image](https://github.com/user-attachments/assets/1340ea90-3f18-4c91-817a-069deb306098)
  sorting produk dan logout.
 
 ### Lihat Produk
@@ -211,23 +211,23 @@ Jika sudah memilih nominal top up yang diinginkan, maka akan menampilkan top up 
 
 Jika nomor 4 yang diinput maka akan menampilkan apa saja produk perhiasan yang akan dibeli. Tekan enter untuk melanjutkan.
 
-![Screenshot 2024-11-08 001320](https://github.com/user-attachments/assets/bb1bdc8b-8c91-4191-8b93-508ff401da53)
+![Screenshot 2024-11-08 003527](https://github.com/user-attachments/assets/f5f3ac7b-1ab6-450f-acd7-3e3094826401)
 
 Masukkan nama produk yang ingin dibeli yang sudah ditampilkan dalam tabel.
 
-![Screenshot 2024-11-08 003119](https://github.com/user-attachments/assets/73a5b5fe-422a-4456-b330-5f8f88c57c2f)
+![Screenshot 2024-11-08 003612](https://github.com/user-attachments/assets/c270dc59-783c-4107-8677-787d85d145c3)
 
 Selanjutnya masukkan jumlah yang ingin dibeli.
 
-![Screenshot 2024-11-08 003249](https://github.com/user-attachments/assets/d1e9d283-01f0-4917-bedb-b16603075fc1)
+![Screenshot 2024-11-08 003642](https://github.com/user-attachments/assets/4b9127c1-0e79-437f-b1eb-5fb7d7b81145)
 
 Setelah itu pengguna akan diberikan detail pembelian dan diarahkan untuk melanjutkan pembelian atau tidak.
 
-![Screenshot 2024-11-08 003321](https://github.com/user-attachments/assets/b984c68b-1ac7-4408-8fd7-72c1b20fe895)
+![Screenshot 2024-11-08 003702](https://github.com/user-attachments/assets/d7bb0ae0-ea0c-442c-bbd3-546c47db5fbc)
 
 Jika 'y' akan menampilkan invoice
 
-![Screenshot 2024-11-08 003401](https://github.com/user-attachments/assets/c299a42e-19b8-418d-b0ff-efcf1155b684)
+![Screenshot 2024-11-08 003729](https://github.com/user-attachments/assets/e1846d85-dd21-4672-b747-4208ab744837)
 
 sedangkan 'n' menampilkan pembelian dibatalkan.
 
