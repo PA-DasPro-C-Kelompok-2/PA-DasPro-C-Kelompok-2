@@ -191,3 +191,73 @@ Jika nomor 1 yang diinput maka akan menampilkan semua produk.
 
 Gambar
 
+Jika nomor 2 yang diinput maka akan menampilkan apa saja produk hiasan yang akan dibeli.
+
+Gambar
+
+Masukkan nama produk yang ingin dibeli yang sudah ditampilkan dalam tabel.
+
+**Gambar**
+
+Selanjutnya masukkan jumlah yang ingin dibeli.
+
+**Gambar**
+
+Setelah itu pengguna akan diberikan detail pembelian dan diarahkan untuk melanjutkan pembelian atau tidak.
+
+**Gambar**
+
+Jika 'y' akan menampilkan invoice, sedangkan 'n' menampilkan pembelian dibatalkan.
+
+### Lihat Saldo E-Money
+
+**Gambar**
+
+Jika nomor 3 yang diinput maka akan menampilkan saldo pengguna.
+
+### Top Up Saldo E-Money
+
+**Gambar**
+
+Jika nomor 4 yang diinput maka akan menampilkan pilihan nominal top up
+
+**Gambar**
+
+Pengguna diarahkan memilih nominal top up
+
+Gambar
+
+Jika sudah memilih nominal top up yang diinginkan, maka akan menampilkan top up behasil dan sisa saldo pengguna.
+
+### Cari Produk
+
+Gambar
+
+Jika nomor 5 yang diiinput maka akan diarahkan untuk mencari produk yang ingin dicari.
+
+Gambar
+
+Masukkan kata kunci pencarian produk.
+
+Gambar
+
+Jika sudah memasukkan kata kunci pencarian, maka akan menampilkan hasil pencarian.
+
+### Sorting Produk
+
+Gambar
+
+Jika nomor 6 yang diinput maka akan diarahkan untuk menyorting produk
+
+Gambar
+
+Selanjutnya pengguna diarahkan untuk memilih urutan berdasarkan nama, harga atau stok.
+
+Gambar
+
+Lalu akan diarahkan lagi untuk memilih opsi pengurutan menaik atau menurun.
+
+### Logout
+
+Jika nomor 7 yang diinput, maka akan keluar dari menu dan kembali ke menu utama.
+
