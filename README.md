@@ -141,37 +141,33 @@ Jika berhasil maka akan menampilkan pesan di atas.
 
 ### Hapus Produk
 
-Gambar
+![Screenshot 2024-11-07 112121](https://github.com/user-attachments/assets/5a15ee64-820e-4f4f-8ff7-17bac7cdb807)
 
 Jika nomor 4 yang diinput maka akan masuk ke menu menghapus produk. Tekan enter untuk melanjutkan.
 
-Gambar
+![Screenshot 2024-11-07 112150](https://github.com/user-attachments/assets/f71797f4-afea-42d0-ad0e-87f8af9a4416)
 
 Memasukkan nama produk yang ingin dihapus
 
-Gambar
+![Screenshot 2024-11-07 112227](https://github.com/user-attachments/assets/7ef3d00e-b663-4d12-8eee-c786eb527c1f)
 
 Selanjutnya admin akan ditanya untuk meyakinkan apakah ingin menghapus produk tersebut. 
 
-Gambar
+![Screenshot 2024-11-07 112256](https://github.com/user-attachments/assets/d754db1a-e6ee-40b9-9ded-374182cb9598)
 
 Jika 'y' maka akan menampilkan pesan diatas yang berarti produk sudah dihapus.
 
-Gambar
+![Screenshot 2024-11-07 112339](https://github.com/user-attachments/assets/f588f9e8-d9e3-427a-9161-80da3d75f146)
 
 Jika 'n' maka akan menampilkan pesan diatas yang berarti produk tidak jadi dihapus.
 
 ### Cari Produk
 
-Gambar
+![Screenshot 2024-11-07 112405](https://github.com/user-attachments/assets/e8831bf2-c600-4026-8546-2588f8fb18d2)
 
-Jika nomor 5 yang diinput maka akan masuk ke menu mencari produk
+Jika nomor 5 yang diinput maka akan masuk ke menu mencari produk. Memasukkan kata kunci pencarian yang ingin dicari.
 
-Gambar
-
-Memasukkan kata kunci pencarian yang ingin dicari.
-
-Gambar
+![Screenshot 2024-11-07 112452](https://github.com/user-attachments/assets/3a860d4d-41c8-4060-8096-38014895d735)
 
 Jila sudah memasukkan kata kunci, maka akan menampilkan produk yang ingin dicari.
 
