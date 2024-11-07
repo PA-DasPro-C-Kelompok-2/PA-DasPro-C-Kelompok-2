@@ -115,27 +115,27 @@ Jika berhasil maka akan muncul pesan seperti gambar di atas.
 
 ### Perbarui Produk
 
-Gambar
+![Screenshot 2024-11-07 111206](https://github.com/user-attachments/assets/a76bb186-faee-4f10-8464-8a0647dbd258)
 
 Jika nomor 3 yang diinput maka akan masuk ke menu memperbarui produk. Tekan enter untuk melanjutkan.
 
-Gambar
+![Screenshot 2024-11-07 111337](https://github.com/user-attachments/assets/030c77b6-e37d-425b-aa35-def3c2caf200)
 
 Jika sudah di enter, maka admin harus memasukkan nama produk yang akan diperbarui.
 
-Gambar
+![Screenshot 2024-11-07 111404](https://github.com/user-attachments/assets/7b37afcd-ddd1-46aa-898f-eb98095ae92b)
 
-Jika sudah memasukkan nama produk yang ingin di perbarui, lanjut memasukkan nama produk yang baru. 
+Jika sudah memasukkan nama produk yang ingin di perbarui, lanjut memasukkan nama produk yang baru. Kosongkan jika tidak jadi mengubah.
 
-Gambar
+![Screenshot 2024-11-07 111511](https://github.com/user-attachments/assets/7f2649c0-3348-47bf-b9fd-3f8f8f032184)
 
 Selanjutnya memasukkan harga baru.
 
-Gambar
+![Screenshot 2024-11-07 111535](https://github.com/user-attachments/assets/c04f389f-4075-4c21-8094-284378b2b830)
 
 Lalu memasukkan stok produk yang baru.
 
-Gambar
+![Screenshot 2024-11-07 111555](https://github.com/user-attachments/assets/651296c6-b081-4700-9070-c27a8ee14a27)
 
 Jika berhasil maka akan menampilkan pesan di atas.
 
