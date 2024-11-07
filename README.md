@@ -230,6 +230,27 @@ Gambar
 
 Jika sudah memilih nominal top up yang diinginkan, maka akan menampilkan top up behasil dan sisa saldo pengguna.
 
+### Transaksi Pembelian
+
+![Screenshot 2024-11-07 112935](https://github.com/user-attachments/assets/bafc6058-644a-434d-befc-ca1675f02310)
+
+Jika nomor 2 yang diinput maka akan menampilkan apa saja produk perhiasan yang akan dibeli. Tekan enter untuk melanjutkan.
+
+
+Masukkan nama produk yang ingin dibeli yang sudah ditampilkan dalam tabel.
+
+**Gambar**
+
+Selanjutnya masukkan jumlah yang ingin dibeli.
+
+**Gambar**
+
+Setelah itu pengguna akan diberikan detail pembelian dan diarahkan untuk melanjutkan pembelian atau tidak.
+
+**Gambar**
+
+Jika 'y' akan menampilkan invoice, sedangkan 'n' menampilkan pembelian dibatalkan.
+
 ### Cari Produk
 
 ![Screenshot 2024-11-07 113103](https://github.com/user-attachments/assets/74af3e89-54be-4f37-a1d9-9636e8b67648)
