@@ -189,44 +189,19 @@ Jika nama akun dan password di menu login benar sebagai user, maka akan menampil
 
 Jika nomor 1 yang diinput maka akan menampilkan semua produk. Tekan enter untuk melanjutkan.
 
-### Transaksi Pembelian
-
-![Screenshot 2024-11-07 112935](https://github.com/user-attachments/assets/bafc6058-644a-434d-befc-ca1675f02310)
-
-Jika nomor 2 yang diinput maka akan menampilkan apa saja produk perhiasan yang akan dibeli. Tekan enter untuk melanjutkan.
-
-
-Masukkan nama produk yang ingin dibeli yang sudah ditampilkan dalam tabel.
-
-**Gambar**
-
-Selanjutnya masukkan jumlah yang ingin dibeli.
-
-**Gambar**
-
-Setelah itu pengguna akan diberikan detail pembelian dan diarahkan untuk melanjutkan pembelian atau tidak.
-
-**Gambar**
-
-Jika 'y' akan menampilkan invoice, sedangkan 'n' menampilkan pembelian dibatalkan.
-
 ### Lihat Saldo E-Money
 
-**Gambar**
+![Screenshot 2024-11-07 234820](https://github.com/user-attachments/assets/559913f6-9ca6-4a98-a724-728556b44f4a)
 
-Jika nomor 3 yang diinput maka akan menampilkan saldo pengguna.
+Jika nomor 2 yang diinput maka akan menampilkan saldo pengguna.
 
 ### Top Up Saldo E-Money
 
-**Gambar**
+![Screenshot 2024-11-07 234928](https://github.com/user-attachments/assets/45cacda9-5b94-48fc-8d0e-5dd8f9d7cabf)
 
-Jika nomor 4 yang diinput maka akan menampilkan pilihan nominal top up
+Jika nomor 3 yang diinput maka akan menampilkan pilihan nominal top up. Pengguna diarahkan memilih nominal top up.
 
-**Gambar**
-
-Pengguna diarahkan memilih nominal top up
-
-Gambar
+![Screenshot 2024-11-07 235114](https://github.com/user-attachments/assets/6019e729-b8d1-4092-bc3f-d15207ec1294)
 
 Jika sudah memilih nominal top up yang diinginkan, maka akan menampilkan top up behasil dan sisa saldo pengguna.
 
@@ -234,22 +209,27 @@ Jika sudah memilih nominal top up yang diinginkan, maka akan menampilkan top up 
 
 ![Screenshot 2024-11-07 112935](https://github.com/user-attachments/assets/bafc6058-644a-434d-befc-ca1675f02310)
 
-Jika nomor 2 yang diinput maka akan menampilkan apa saja produk perhiasan yang akan dibeli. Tekan enter untuk melanjutkan.
+Jika nomor 4 yang diinput maka akan menampilkan apa saja produk perhiasan yang akan dibeli. Tekan enter untuk melanjutkan.
 
+![Screenshot 2024-11-08 001320](https://github.com/user-attachments/assets/bb1bdc8b-8c91-4191-8b93-508ff401da53)
 
 Masukkan nama produk yang ingin dibeli yang sudah ditampilkan dalam tabel.
 
-**Gambar**
+![Screenshot 2024-11-08 003119](https://github.com/user-attachments/assets/73a5b5fe-422a-4456-b330-5f8f88c57c2f)
 
 Selanjutnya masukkan jumlah yang ingin dibeli.
 
-**Gambar**
+![Screenshot 2024-11-08 003249](https://github.com/user-attachments/assets/d1e9d283-01f0-4917-bedb-b16603075fc1)
 
 Setelah itu pengguna akan diberikan detail pembelian dan diarahkan untuk melanjutkan pembelian atau tidak.
 
-**Gambar**
+![Screenshot 2024-11-08 003321](https://github.com/user-attachments/assets/b984c68b-1ac7-4408-8fd7-72c1b20fe895)
 
-Jika 'y' akan menampilkan invoice, sedangkan 'n' menampilkan pembelian dibatalkan.
+Jika 'y' akan menampilkan invoice
+
+![Screenshot 2024-11-08 003401](https://github.com/user-attachments/assets/c299a42e-19b8-418d-b0ff-efcf1155b684)
+
+sedangkan 'n' menampilkan pembelian dibatalkan.
 
 ### Cari Produk
 
