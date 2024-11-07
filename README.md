@@ -179,23 +179,22 @@ Jika nomor 6 yang diinput maka akan kembali ke menu utama.
 
 ## Menu User
 
-**Gambar**
+![Screenshot 2024-11-07 112722](https://github.com/user-attachments/assets/37331c31-eed1-4d41-a760-1981ee93e71c)
 
 Jika nama akun dan password di menu login benar sebagai user, maka akan menampilkan menu user. Disini terdapat 5 pilihan yaitu lihat produk, transaksi pembelian, lihat saldo, top up saldo, cari produk, sorting produk dan logout.
 
 ### Lihat Produk
 
-Gambar
+![Screenshot 2024-11-07 112837](https://github.com/user-attachments/assets/3d8d1041-a244-4b02-9e16-0a42d4474375)
 
-Jika nomor 1 yang diinput maka akan menampilkan semua produk.
+Jika nomor 1 yang diinput maka akan menampilkan semua produk. Tekan enter untuk melanjutkan.
 
 ### Transaksi Pembelian
 
-Gambar
+![Screenshot 2024-11-07 112935](https://github.com/user-attachments/assets/bafc6058-644a-434d-befc-ca1675f02310)
 
-Jika nomor 2 yang diinput maka akan menampilkan apa saja produk hiasan yang akan dibeli.
+Jika nomor 2 yang diinput maka akan menampilkan apa saja produk perhiasan yang akan dibeli. Tekan enter untuk melanjutkan.
 
-Gambar
 
 Masukkan nama produk yang ingin dibeli yang sudah ditampilkan dalam tabel.
 
@@ -233,29 +232,23 @@ Jika sudah memilih nominal top up yang diinginkan, maka akan menampilkan top up 
 
 ### Cari Produk
 
-Gambar
+![Screenshot 2024-11-07 113103](https://github.com/user-attachments/assets/74af3e89-54be-4f37-a1d9-9636e8b67648)
 
-Jika nomor 5 yang diiinput maka akan diarahkan untuk mencari produk yang ingin dicari.
+Jika nomor 5 yang diiinput maka akan diarahkan untuk mencari produk yang ingin dicari. Masukkan kata kunci pencarian produk.
 
-Gambar
-
-Masukkan kata kunci pencarian produk.
-
-Gambar
+![Screenshot 2024-11-07 113154](https://github.com/user-attachments/assets/f348cdfb-4abd-4e8f-8ba8-727504b26735)
 
 Jika sudah memasukkan kata kunci pencarian, maka akan menampilkan hasil pencarian.
 
 ### Sorting Produk
 
-Gambar
-
 Jika nomor 6 yang diinput maka akan diarahkan untuk menyorting produk
 
-Gambar
+![Screenshot 2024-11-07 113234](https://github.com/user-attachments/assets/33573e3d-ae5d-486d-addf-c1769833f9d4)
 
 Selanjutnya pengguna diarahkan untuk memilih urutan berdasarkan nama, harga atau stok.
 
-Gambar
+![Screenshot 2024-11-07 113331](https://github.com/user-attachments/assets/2146d71c-5624-4858-be12-c70c8b820a8b)
 
 Lalu akan diarahkan lagi untuk memilih opsi pengurutan menaik atau menurun.
 
