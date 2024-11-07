@@ -31,6 +31,9 @@ Terdapat 5 library yab=ng kami gunakan yaitu:
 # Penggunaan Program
 
 ## Menu Awal
+
+![Screenshot 2024-11-07 104302](https://github.com/user-attachments/assets/95e179be-037f-4f43-953b-34599791cde5)
+
 Tampilan yang pertama kali muncul saat menjalankan program adalah menu awal. Disini terdapat 3 pilihan yaitu Login, Registrasi dan Keluar.
 
 ## Menu Login
