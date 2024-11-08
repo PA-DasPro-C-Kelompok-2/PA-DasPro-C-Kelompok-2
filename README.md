@@ -4,7 +4,7 @@
 Program ini adalah sebuah sistem manajemen toko perhiasan. Terdapat 2 role yaitu admin dan user. Role admin dapat melakukan C.R.U.D. (Create, Read, Update dan Delete). Role user dapat melihat produk, transaksi pembelian, lihat saldo e-money, top up saldo e-money. cari produk dan sorting produk
 
 ## Library
-Terdapat 5 library yab=ng kami gunakan yaitu:
+Terdapat 5 library yang kami gunakan yaitu:
 1. PrettyTable membuat tabel secara otomatis dan rapi
 2. os membuar program yang memerlukan manajemen file atau interaksi dengan sistem operasi dan membersihkan terminal.
 3. pwinput untuk membuat password tidak langsung terlihat
