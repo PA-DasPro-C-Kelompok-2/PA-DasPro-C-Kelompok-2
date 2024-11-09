@@ -238,6 +238,62 @@ def cari_produk():
         print("|                  Produk tidak ditemukan!                           |")
         print("+====================================================================+")
 
+# def urutkan_produk(user):
+#     clear()
+#     produk = dataProduk  
+#     if not produk: 
+#         print("+====================================================================+")
+#         print("|                  Belum ada produk tersedia!                        |")
+#         print("+====================================================================+")
+#         return
+#     print("+====================================================================+")
+#     print("|                        Urutkan berdasarkan:                        |")
+#     print("+====================================================================+")
+#     print("| [1]. Nama                                                          |")
+#     print("| [2]. Harga                                                         |")
+#     print("| [3]. Stok                                                          |")
+#     print("+====================================================================+")
+#     try:
+#         pilihan = input("Pilih opsi pengurutan (1-3): ")  
+#         if pilihan not in ["1", "2", "3"]:  
+#             print("+====================================================================+")
+#             print("|                     Pilihan tidak valid!                            |")
+#             print("+====================================================================+")
+#             return
+            
+#         urutan = input("Urutan (1: Menaik, 2: Menurun): ")  
+#         if urutan not in ["1", "2"]:  
+#             print("+====================================================================+")
+#             print("|                     Pilihan tidak valid!                            |")
+#             print("+====================================================================+")
+#             return
+#     except ValueError:
+#         print("+====================================================================+")
+#         print("|           Input tidak valid. Harap masukkan nomor.                 |")
+#         print("+====================================================================+")
+#     except KeyboardInterrupt:
+#         ("")
+#     except EOFError:
+#         ("")
+        
+#     key_map = {"1": "Nama", "2": "Harga", "3": "Stok"}
+#     key = key_map[pilihan]
+#     reverse = urutan == "2"  
+#     sorted_items = sorted(produk, key=lambda x: x[key], reverse=reverse)
+#     tabel = PrettyTable()
+#     tabel.title = f"Produk Diurutkan Berdasarkan {key}"
+#     tabel.field_names = ["Nama", "Harga", "Stok"]
+    
+#     for detail in sorted_items:
+#         harga = int(detail['Harga']) if isinstance(detail['Harga'], str) and detail['Harga'].isdigit() else detail['Harga']
+        
+#         tabel.add_row([
+#             detail["Nama"],
+#             f"Rp {harga:,}",  
+#             detail["Stok"]
+#         ])
+#     print(tabel) 
+
 def urutkan_produk(user):
     clear()
     produk = dataProduk  
@@ -275,25 +331,30 @@ def urutkan_produk(user):
         ("")
     except EOFError:
         ("")
-        
     key_map = {"1": "Nama", "2": "Harga", "3": "Stok"}
     key = key_map[pilihan]
-    reverse = urutan == "2"  
+    reverse = urutan == "2"
+    # Konversi harga dan stok menjadi integer jika diperlukan
+    for item in produk:
+        if key == "Harga" and isinstance(item["Harga"], str) and item["Harga"].isdigit():
+            item["Harga"] = int(item["Harga"])
+        elif key == "Stok" and isinstance(item["Stok"], str) and item["Stok"].isdigit():
+            item["Stok"] = int(item["Stok"])
+    # Urutkan produk berdasarkan kunci yang dipilih
     sorted_items = sorted(produk, key=lambda x: x[key], reverse=reverse)
     tabel = PrettyTable()
     tabel.title = f"Produk Diurutkan Berdasarkan {key}"
     tabel.field_names = ["Nama", "Harga", "Stok"]
-    
     for detail in sorted_items:
         harga = int(detail['Harga']) if isinstance(detail['Harga'], str) and detail['Harga'].isdigit() else detail['Harga']
-        
         tabel.add_row([
             detail["Nama"],
             f"Rp {harga:,}",  
             detail["Stok"]
         ])
     print(tabel) 
-    
+
+
 def transaksi(user):
     clear()
     produk = dataProduk  
