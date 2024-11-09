@@ -50,9 +50,8 @@ Fitur yang tersedia khusus untuk administrator:
 
 <details>
   <summary>1. Flowchart Menu Utama</summary>
-  ![PA](https://github.com/user-attachments/assets/4bac4782-3ef2-442f-9729-09db028551f3)
+  <img src="https://github.com/user-attachments/assets/d0655a73-b9c6-4604-be4e-ce8040b169f4" alt="">
 </details>
-
 
 # Penggunaan Program
 
