@@ -169,6 +169,10 @@ Jika nama produk sudah diinput maka diarahkan untuk memasukkan harga produk. Har
 
 Apabila memasukkan harga produk melebihi 10 digit, maka akan menampilkan pesan diatas.
 
+![Screenshot 2024-11-09 180640](https://github.com/user-attachments/assets/c290103f-783e-415f-8fa4-6841cf4d9f97)
+
+Apabila memasukkan harga selain angka, maka akan menampilkan pesan diatas.
+
 ![Screenshot 2024-11-07 110815](https://github.com/user-attachments/assets/4c503bd1-f798-42d1-997a-32897f3197ab)
 
 Selanjutnya masukkan stok produk
@@ -176,6 +180,10 @@ Selanjutnya masukkan stok produk
 ![Screenshot 2024-11-07 110836](https://github.com/user-attachments/assets/240b3431-20ee-4f20-a1ab-d320015eb1c0)
 
 Jika berhasil maka akan muncul pesan seperti gambar di atas.
+
+![Screenshot 2024-11-09 180755](https://github.com/user-attachments/assets/2f7a60c8-59e1-4d74-bf57-f762882d110e)
+
+Apabila memasukkan stok selain angka, maka akan menampilkan pesan diatas.
 
 ### Perbarui Produk
 
@@ -199,19 +207,15 @@ Selanjutnya memasukkan harga baru.
 
 Lalu memasukkan stok produk yang baru.
 
-![Screenshot 2024-11-09 174459](https://github.com/user-attachments/assets/20b19a96-f7c1-47b0-9acc-3afb48602d27)
+![Screenshot 2024-11-09 181015](https://github.com/user-attachments/assets/3893ad3c-20cf-4a92-8be6-a6e4ff3a0916)
 
-Jika berhasil maka akan menampilkan pesan di atas.
+Jika berhasil maka akan menampilkan pesan di atas. Tekan enter untuk lanjut.
 
 ### Hapus Produk
 
-![Screenshot 2024-11-07 112121](https://github.com/user-attachments/assets/5a15ee64-820e-4f4f-8ff7-17bac7cdb807)
+![Screenshot 2024-11-09 181052](https://github.com/user-attachments/assets/b202c395-69a2-40ea-841e-b3adc24af11b)
 
-Jika nomor 4 yang diinput maka akan masuk ke menu menghapus produk. Tekan enter untuk melanjutkan.
-
-![Screenshot 2024-11-07 112150](https://github.com/user-attachments/assets/f71797f4-afea-42d0-ad0e-87f8af9a4416)
-
-Memasukkan nama produk yang ingin dihapus
+Jika nomor 4 yang diinput maka akan masuk ke menu menghapus produk. Masukkan nama produk yang ingin dihapus
 
 ![Screenshot 2024-11-07 112227](https://github.com/user-attachments/assets/7ef3d00e-b663-4d12-8eee-c786eb527c1f)
 
@@ -237,9 +241,9 @@ Jila sudah memasukkan kata kunci, maka akan menampilkan produk yang ingin dicari
 
 ### Logout
 
-Gambar
+![Screenshot 2024-11-09 181258](https://github.com/user-attachments/assets/389ad3c0-ad97-4581-bb3f-efdf7557f448)
 
-Jika nomor 6 yang diinput maka akan kembali ke menu utama.
+Jika nomor 6 yang diinput maka menampilkan pesan diatas. Enter untuk lanjut kembali ke menu utama.
 
 </details>
 
@@ -248,8 +252,7 @@ Jika nomor 6 yang diinput maka akan kembali ke menu utama.
 
 ![Screenshot 2024-11-07 114244](https://github.com/user-attachments/assets/5e864636-5258-4d4d-bc83-302eb8391eb3)
 
-Jika nama akun dan password di menu login benar sebagai user, maka akan menampilkan menu user. Disini terdapat 5 pilihan yaitu lihat produk, lihat saldo, top up saldo, transaksi, cari produk, ![image](https://github.com/user-attachments/assets/1340ea90-3f18-4c91-817a-069deb306098)
- sorting produk dan logout.
+Jika nama akun dan password di menu login benar sebagai user, maka akan menampilkan menu user. Disini terdapat 5 pilihan yaitu lihat produk, lihat saldo, top up saldo, transaksi, cari produk, sorting produk dan logout.
 
 ### Lihat Produk
 
@@ -273,15 +276,19 @@ Jika nomor 3 yang diinput maka akan menampilkan pilihan nominal top up. Pengguna
 
 Jika sudah memilih nominal top up yang diinginkan, maka akan menampilkan top up behasil dan sisa saldo pengguna.
 
+![Screenshot 2024-11-09 181800](https://github.com/user-attachments/assets/481d2b5a-efff-4060-8910-479fe1364956)
+
+Apabila pengguna tidak mengisi pilihan nominal, maka akan menampilkan pesan diatas.
+
 ### Transaksi Pembelian
 
-![Screenshot 2024-11-07 112935](https://github.com/user-attachments/assets/bafc6058-644a-434d-befc-ca1675f02310)
+![Screenshot 2024-11-09 181901](https://github.com/user-attachments/assets/9aadf506-7b88-482d-9d61-7c0113d4004a)
 
-Jika nomor 4 yang diinput maka akan menampilkan apa saja produk perhiasan yang akan dibeli. Tekan enter untuk melanjutkan.
+Jika nomor 4 yang diinput maka akan menampilkan apa saja produk perhiasan yang akan dibeli. Masukkan nama produk yang ingin dibeli yang sudah ditampilkan dalam tabel.
 
-![Screenshot 2024-11-08 003527](https://github.com/user-attachments/assets/f5f3ac7b-1ab6-450f-acd7-3e3094826401)
+![Screenshot 2024-11-09 182117](https://github.com/user-attachments/assets/4e2bc41f-3592-4f6c-8cf3-5bca7f482528)
 
-Masukkan nama produk yang ingin dibeli yang sudah ditampilkan dalam tabel.
+Apabila pengguna masukkan nama yang tidak ada di menu produk, maka akan menampilkan pesan diatas.
 
 ![Screenshot 2024-11-08 003612](https://github.com/user-attachments/assets/c270dc59-783c-4107-8677-787d85d145c3)
 
@@ -291,13 +298,17 @@ Selanjutnya masukkan jumlah yang ingin dibeli.
 
 Setelah itu pengguna akan diberikan detail pembelian dan diarahkan untuk melanjutkan pembelian atau tidak.
 
-![Screenshot 2024-11-08 003702](https://github.com/user-attachments/assets/d7bb0ae0-ea0c-442c-bbd3-546c47db5fbc)
+![Screenshot 2024-11-09 182402](https://github.com/user-attachments/assets/5d048ac4-72a0-4b5c-9a10-19ae1d4f409d)
 
-Jika 'y' akan menampilkan invoice
+Jika 'y' akan menampilkan pesan diatas. Tekan enter untuk mencetak invoice.
 
-![Screenshot 2024-11-08 003729](https://github.com/user-attachments/assets/e1846d85-dd21-4672-b747-4208ab744837)
+![Screenshot 2024-11-09 182459](https://github.com/user-attachments/assets/6ce4c4c8-551b-4a10-b311-71a3ab9004e2)
 
-sedangkan 'n' menampilkan pembelian dibatalkan.
+Selanjutnya akan menampilkan invoice. Tekan enter untuk lanjut.
+
+![Screenshot 2024-11-09 182612](https://github.com/user-attachments/assets/602601c9-5368-489e-9a1d-61dbdcef97fb)
+
+sedangkan 'n' menampilkan pembelian dibatalkan. Enter untuk lanjut.
 
 ### Cari Produk
 
@@ -311,17 +322,17 @@ Jika sudah memasukkan kata kunci pencarian, maka akan menampilkan hasil pencaria
 
 ### Sorting Produk
 
-Jika nomor 6 yang diinput maka akan diarahkan untuk menyorting produk
+![Screenshot 2024-11-09 182751](https://github.com/user-attachments/assets/f99cdada-b457-49da-85a0-fe7e8c278d98)
 
-![Screenshot 2024-11-07 113234](https://github.com/user-attachments/assets/33573e3d-ae5d-486d-addf-c1769833f9d4)
+Jika nomor 6 yang diinput maka akan menampilkan menu sorting produk dan diarahkan memilih menu berdasarkan nama, harga atau stok. Jika memilih nomor 4 yaitu kembali, maka akan kembali ke menu pembeli.
 
-Selanjutnya pengguna diarahkan untuk memilih urutan berdasarkan nama, harga atau stok.
+![Screenshot 2024-11-09 182947](https://github.com/user-attachments/assets/221c95b5-1691-443e-a6ac-fc9ef4ed58ac)
 
-![Screenshot 2024-11-07 113331](https://github.com/user-attachments/assets/2146d71c-5624-4858-be12-c70c8b820a8b)
-
-Lalu akan diarahkan lagi untuk memilih opsi pengurutan menaik atau menurun.
+Apabila memasukkan selain pilihan yang ada atau bukan nomor yang ada, maka akan menampilkan pesan diatas.
 
 ### Logout
 
-Jika nomor 7 yang diinput, maka akan keluar dari menu dan kembali ke menu utama.
+![Screenshot 2024-11-09 183216](https://github.com/user-attachments/assets/31d83dbe-e103-4782-839f-58017d181a2b)
+
+Jika nomor 7 yang diinput, maka akan menampilkan pesan diatas. Tekan enter untuk lanjut ke menu utama.
 
