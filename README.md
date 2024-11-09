@@ -53,7 +53,7 @@ Fitur yang tersedia khusus untuk administrator:
 Tampilan yang pertama kali muncul saat menjalankan program adalah menu utama. Disini terdapat 3 pilihan yaitu Login, Registrasi dan Keluar.
 
 <details>
-<summary><h3>Menu Login</h3></summary>
+<summary><h3>🔑Menu Login</h3></summary>
    
 ### Login Admin
 
