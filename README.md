@@ -1,6 +1,6 @@
 # Sistem Manajemen Toko Perhiasan
 
-## Anggota
+## Anggota Kelompok
 
 | Nama                      | NIM           | Kelas             |
 |---------------------------|---------------|-------------------|
