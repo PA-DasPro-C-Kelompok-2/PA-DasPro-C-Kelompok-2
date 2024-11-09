@@ -52,7 +52,9 @@ Fitur yang tersedia khusus untuk administrator:
 
 Tampilan yang pertama kali muncul saat menjalankan program adalah menu utama. Disini terdapat 3 pilihan yaitu Login, Registrasi dan Keluar.
 
-## Menu Login
+<details>
+<summary><h3>Menu Login</h3></summary>
+   
 ### Login Admin
 
 ![Screenshot 2024-11-07 104521](https://github.com/user-attachments/assets/26278fc1-bdc1-43af-a65b-6e9fe2eb34ef)
@@ -95,7 +97,8 @@ Jika berhasil maka akan muncul pesan akun sudah terdaftar.
 
 Jika nomor 3 yang di input di menu utama, maka program akan berhenti dan menampilkan pesan di atas.
 
-## Menu Admin
+<details>
+<summary><h3>Menu Admin</h3></summary>
 
 ![Screenshot 2024-11-07 110105](https://github.com/user-attachments/assets/9c561710-95c8-4b5c-98dd-f53520f90c75)
 
@@ -193,7 +196,8 @@ Gambar
 
 Jika nomor 6 yang diinput maka akan kembali ke menu utama.
 
-## Menu User
+<details>
+<summary><h3>Menu User</h3></summary>
 
 ![Screenshot 2024-11-07 114244](https://github.com/user-attachments/assets/5e864636-5258-4d4d-bc83-302eb8391eb3)
 
