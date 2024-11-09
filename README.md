@@ -179,13 +179,13 @@ Jika berhasil maka akan muncul pesan seperti gambar di atas.
 
 ### Perbarui Produk
 
-![Screenshot 2024-11-07 111206](https://github.com/user-attachments/assets/a76bb186-faee-4f10-8464-8a0647dbd258)
+![Screenshot 2024-11-09 173420](https://github.com/user-attachments/assets/3de4cb55-c4e3-49a3-8719-f2be8f6f248d)
 
-Jika nomor 3 yang diinput maka akan masuk ke menu memperbarui produk. Tekan enter untuk melanjutkan.
+Jika nomor 3 yang diinput maka akan masuk ke menu memperbarui produk. Admin harus memasukkan nama produk yang akan diperbarui.
 
-![Screenshot 2024-11-07 111337](https://github.com/user-attachments/assets/030c77b6-e37d-425b-aa35-def3c2caf200)
+![Screenshot 2024-11-09 174545](https://github.com/user-attachments/assets/359c4118-1570-4c72-aaad-bd938220e42e)
 
-Jika sudah di enter, maka admin harus memasukkan nama produk yang akan diperbarui.
+Apabila memasukkan nama produk yang tidak ada, maka akan menampilkan pesan diatas.
 
 ![Screenshot 2024-11-07 111404](https://github.com/user-attachments/assets/7b37afcd-ddd1-46aa-898f-eb98095ae92b)
 
@@ -199,7 +199,7 @@ Selanjutnya memasukkan harga baru.
 
 Lalu memasukkan stok produk yang baru.
 
-![Screenshot 2024-11-07 111555](https://github.com/user-attachments/assets/651296c6-b081-4700-9070-c27a8ee14a27)
+![Screenshot 2024-11-09 174459](https://github.com/user-attachments/assets/20b19a96-f7c1-47b0-9acc-3afb48602d27)
 
 Jika berhasil maka akan menampilkan pesan di atas.
 
