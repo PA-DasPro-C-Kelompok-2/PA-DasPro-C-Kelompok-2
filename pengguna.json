@@ -3,6 +3,6 @@
         "username": "abc",
         "password": "abc",
         "role": "user",
-        "saldo": 0
+        "saldo": "0"
     }
 ]

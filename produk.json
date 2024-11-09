@@ -1,27 +1,27 @@
 [
     {
         "Nama": "Cincin Emas",
-        "Harga": "5000000",
-        "Stok": "4"
+        "Harga": 5000000,
+        "Stok": 4
     },
     {
         "Nama": "Kalung Berlian",
-        "Harga": "15000000",
-        "Stok": "5"
+        "Harga": 15000000,
+        "Stok": 5
     },
     {
         "Nama": "Gelang Emas",
-        "Harga": "8000000",
-        "Stok": "6"
+        "Harga": 8000000,
+        "Stok": 6
     },
     {
         "Nama": "Anting Berlian",
-        "Harga": "30000000",
-        "Stok": "15"
+        "Harga": 30000000,
+        "Stok": "14"
     },
     {
         "Nama": "Cincin Couple Berlian",
-        "Harga": "20000000",
-        "Stok": "20"
+        "Harga": 20000000,
+        "Stok": 20
     }
 ]

@@ -6,13 +6,11 @@ import pwinput
 def clear():
     os.system("cls")
 
-# Fungsi untuk menginisialisasi file yang diperlukan
 def inisialisasi_file():
     if not os.path.exists("pengguna.json"):
         with open("pengguna.json", "w") as file:
             json.dump([], file, indent=4)
             
-# Fungsi untuk memuat data produk
 jsonPathProduk = r"produk.json"
 try:
     with open(jsonPathProduk, "r") as file:
@@ -24,7 +22,6 @@ except json.JSONDecodeError:
     print("Terjadi kesalahan dalam membaca data produk.")
     dataProduk = []
 
-# Fungsi untuk menyimpan dan memuat data
 def simpan_produk(produk):
     with open('produk.json', 'w') as f:
         json.dump(produk, f, indent=4)
@@ -40,7 +37,6 @@ def muat_pengguna():
     except FileNotFoundError:
         return []
 
-# Fungsi untuk menampilkan produk
 def tampilkan_produk():
     clear()
     produk = dataProduk
@@ -107,8 +103,6 @@ def tambah_produk():
     print("|                  Produk berhasil ditambahkan!                      |")
     print("+====================================================================+")
 
-
-# Fungsi untuk memperbarui produk
 def perbarui_produk():
     clear()
     produk = dataProduk
@@ -173,7 +167,6 @@ def perbarui_produk():
     print("|                    Produk berhasil diperbarui!                     |")
     print("+====================================================================+")
 
-# Fungsi untuk menghapus produk
 def hapus_produk():
     clear()
     produk = dataProduk
@@ -206,7 +199,6 @@ def hapus_produk():
         print("|                      Penghapusan dibatalkan.                       |")
         print("+====================================================================+")
 
-# Fungsi untuk mencari produk
 def cari_produk():
     clear()
     produk = dataProduk
@@ -238,122 +230,67 @@ def cari_produk():
         print("|                  Produk tidak ditemukan!                           |")
         print("+====================================================================+")
 
-# def urutkan_produk(user):
-#     clear()
-#     produk = dataProduk  
-#     if not produk: 
-#         print("+====================================================================+")
-#         print("|                  Belum ada produk tersedia!                        |")
-#         print("+====================================================================+")
-#         return
-#     print("+====================================================================+")
-#     print("|                        Urutkan berdasarkan:                        |")
-#     print("+====================================================================+")
-#     print("| [1]. Nama                                                          |")
-#     print("| [2]. Harga                                                         |")
-#     print("| [3]. Stok                                                          |")
-#     print("+====================================================================+")
-#     try:
-#         pilihan = input("Pilih opsi pengurutan (1-3): ")  
-#         if pilihan not in ["1", "2", "3"]:  
-#             print("+====================================================================+")
-#             print("|                     Pilihan tidak valid!                            |")
-#             print("+====================================================================+")
-#             return
-            
-#         urutan = input("Urutan (1: Menaik, 2: Menurun): ")  
-#         if urutan not in ["1", "2"]:  
-#             print("+====================================================================+")
-#             print("|                     Pilihan tidak valid!                            |")
-#             print("+====================================================================+")
-#             return
-#     except ValueError:
-#         print("+====================================================================+")
-#         print("|           Input tidak valid. Harap masukkan nomor.                 |")
-#         print("+====================================================================+")
-#     except KeyboardInterrupt:
-#         ("")
-#     except EOFError:
-#         ("")
-        
-#     key_map = {"1": "Nama", "2": "Harga", "3": "Stok"}
-#     key = key_map[pilihan]
-#     reverse = urutan == "2"  
-#     sorted_items = sorted(produk, key=lambda x: x[key], reverse=reverse)
-#     tabel = PrettyTable()
-#     tabel.title = f"Produk Diurutkan Berdasarkan {key}"
-#     tabel.field_names = ["Nama", "Harga", "Stok"]
-    
-#     for detail in sorted_items:
-#         harga = int(detail['Harga']) if isinstance(detail['Harga'], str) and detail['Harga'].isdigit() else detail['Harga']
-        
-#         tabel.add_row([
-#             detail["Nama"],
-#             f"Rp {harga:,}",  
-#             detail["Stok"]
-#         ])
-#     print(tabel) 
-
 def urutkan_produk(user):
-    clear()
-    produk = dataProduk  
-    if not produk: 
-        print("+====================================================================+")
-        print("|                  Belum ada produk tersedia!                        |")
-        print("+====================================================================+")
-        return
-    print("+====================================================================+")
-    print("|                        Urutkan berdasarkan:                        |")
-    print("+====================================================================+")
-    print("| [1]. Nama                                                          |")
-    print("| [2]. Harga                                                         |")
-    print("| [3]. Stok                                                          |")
-    print("+====================================================================+")
-    try:
-        pilihan = input("Pilih opsi pengurutan (1-3): ")  
-        if pilihan not in ["1", "2", "3"]:  
+    while True:
+        clear()
+        if not dataProduk:
             print("+====================================================================+")
-            print("|                     Pilihan tidak valid!                            |")
+            print("|                  Belum ada produk tersedia!                        |")
             print("+====================================================================+")
             return
-            
-        urutan = input("Urutan (1: Menaik, 2: Menurun): ")  
-        if urutan not in ["1", "2"]:  
-            print("+====================================================================+")
-            print("|                     Pilihan tidak valid!                            |")
-            print("+====================================================================+")
-            return
-    except ValueError:
         print("+====================================================================+")
-        print("|           Input tidak valid. Harap masukkan nomor.                 |")
+        print("|                        Silahkan Pilih Menu                         |")
         print("+====================================================================+")
-    except KeyboardInterrupt:
-        ("")
-    except EOFError:
-        ("")
-    key_map = {"1": "Nama", "2": "Harga", "3": "Stok"}
-    key = key_map[pilihan]
-    reverse = urutan == "2"
-    # Konversi harga dan stok menjadi integer jika diperlukan
-    for item in produk:
-        if key == "Harga" and isinstance(item["Harga"], str) and item["Harga"].isdigit():
-            item["Harga"] = int(item["Harga"])
-        elif key == "Stok" and isinstance(item["Stok"], str) and item["Stok"].isdigit():
-            item["Stok"] = int(item["Stok"])
-    # Urutkan produk berdasarkan kunci yang dipilih
-    sorted_items = sorted(produk, key=lambda x: x[key], reverse=reverse)
-    tabel = PrettyTable()
-    tabel.title = f"Produk Diurutkan Berdasarkan {key}"
-    tabel.field_names = ["Nama", "Harga", "Stok"]
-    for detail in sorted_items:
-        harga = int(detail['Harga']) if isinstance(detail['Harga'], str) and detail['Harga'].isdigit() else detail['Harga']
-        tabel.add_row([
-            detail["Nama"],
-            f"Rp {harga:,}",  
-            detail["Stok"]
-        ])
-    print(tabel) 
-
+        print("| [1]. Berdasarkan Nama                                              |")
+        print("| [2]. Berdasarkan Harga                                             |")
+        print("| [3]. Berdasarkan Stok                                              |")
+        print("| [4]. Kembali                                                       |")
+        print("+====================================================================+")
+        try:
+            pilihan = int(input("Pilih menu: "))
+            if pilihan in [1, 2, 3]:
+                tabel = PrettyTable()
+                tabel.clear_rows()
+                tabel.title = "Data Produk"
+                tabel.field_names = ["Nomor", "Nama", "Harga", "Stok"]
+                sorted_data = dataProduk.copy()
+                for produk in sorted_data:
+                    if isinstance(produk['Harga'], str):
+                        produk['Harga'] = int(produk['Harga'])
+                    if isinstance(produk['Stok'], str):
+                        produk['Stok'] = int(produk['Stok'])
+                if pilihan == 1:
+                    sorted_data = sorted(sorted_data, key=lambda x: x['Nama'])
+                elif pilihan == 2:
+                    sorted_data = sorted(sorted_data, key=lambda x: x['Harga'])
+                else:
+                    sorted_data = sorted(sorted_data, key=lambda x: x['Stok'])
+                for nomor, produk in enumerate(sorted_data, start=1):
+                    tabel.add_row([
+                        nomor,
+                        produk["Nama"],
+                        f"Rp.{produk['Harga']:,}",
+                        produk["Stok"]
+                    ])
+                print(tabel)
+                input("Tekan enter untuk melanjutkan.....")
+            elif pilihan == 4:
+                break
+            else:
+                print("+====================================================================+")
+                print("|                     Pilihan tidak valid!                            |")
+                print("+====================================================================+")
+                input("Tekan enter untuk melanjutkan.....")
+        except ValueError:
+            print("+====================================================================+")
+            print("|           Input tidak valid. Harap masukkan nomor.                 |")
+            print("+====================================================================+")
+            input("Tekan enter untuk melanjutkan.....")
+        except KeyboardInterrupt:
+            print("========================================================")
+            print("|  Tolong jangan menekan ctrl dan c secara bersamaan!  |")
+            print("========================================================")
+            input("Tekan enter untuk melanjutkan.....")
 
 def transaksi(user):
     clear()
@@ -382,14 +319,12 @@ def transaksi(user):
             print("|              Jumlah pembelian harus lebih dari 0!                  |")
             print("+====================================================================+")
             return
-        
         stok_produk = int(produk_ditemukan["Stok"])  
         harga_produk = int(produk_ditemukan["Harga"])  
         saldo_user = int(user["saldo"])  
     except ValueError:
         print("Data input tidak valid. Pastikan jumlah, stok, harga, dan saldo adalah angka yang valid.")
         return
-    
     if jumlah > stok_produk:
         print("+====================================================================+")
         print("|                      Stok tidak mencukupi!                         |")
@@ -409,12 +344,8 @@ def transaksi(user):
         print("|                     Pembelian dibatalkan.                          |")
         print("+====================================================================+")
         return
-    
-    # Proses pembelian
     produk_ditemukan["Stok"] = str(stok_produk - jumlah)  
     simpan_produk(produk)  
-    
-    # Update saldo pengguna
     pengguna = muat_pengguna()
     for p in pengguna:
         if p["username"] == user["username"]:
@@ -447,7 +378,6 @@ def lihat_saldo(user):
 def top_up_saldo(user):
     clear()
     pilihan_nominal = [5000000, 7000000, 10000000, 15000000, 17000000, 20000000]
-    
     tabel = PrettyTable()
     tabel.title = "Pilihan Nominal Top-Up"
     tabel.field_names = ["Nomor", "Nominal"]
@@ -465,9 +395,7 @@ def top_up_saldo(user):
             print("|                     Pilihan tidak valid.                           |")
             print("+====================================================================+")
             return
-            
         jumlah = pilihan_nominal[pilihan - 1]
-        
         pengguna = muat_pengguna()
         for p in pengguna:
             if p["username"] == user["username"]:
@@ -481,7 +409,6 @@ def top_up_saldo(user):
                     print("|        Saldo tidak valid. Harap periksa data pengguna.             |")
                     print("+====================================================================+")
         simpan_pengguna(pengguna)
-        
         print(f"Top-up berhasil! Saldo Anda sekarang: Rp {user['saldo']:,}")
     except ValueError:
         print("+====================================================================+")
@@ -496,26 +423,21 @@ def registrasi():
     clear()
     pengguna = muat_pengguna()
     username = input("Masukkan username: ")
-    
-    # Validasi username hanya boleh berisi huruf dan angka
     if not username.isalnum():
         print("+====================================================================+")
         print("|          Username hanya boleh berisi huruf dan angka!              |")
         print("+====================================================================+")
         return
-    
     if len(str(username)) > 10:
         print("+====================================================================+")
         print("|           Username tidak boleh lebih dari 10 karakter!             |")
         print("+====================================================================+")
         return
-    
     if any(user["username"] == username for user in pengguna):
         print("+====================================================================+")
         print("|                    Username sudah digunakan!                       |")
         print("+====================================================================+")
         return
-    
     password = pwinput.pwinput("Masukkan password: ")
     if len(str(password)) > 10:
         print("+====================================================================+")
@@ -527,7 +449,6 @@ def registrasi():
         print("|        Password hanya boleh berisi huruf dan angka!                |")
         print("+====================================================================+")
         return
-    
     pengguna.append({
         "username": username.lower(),
         "password": password,
@@ -557,7 +478,6 @@ def login():
             print("+====================================================================+")
             input('Tekan Enter untuk melanjutkan...')
             return
-        
         if username == "admin" and password == "admin123":
             print("+====================================================================+")
             print("|                   Login sebagai Admin berhasil!                    |")
@@ -565,7 +485,6 @@ def login():
             input("Tekan enter untuk melanjutkan ke menu..")
             menu_admin()
             return
-    
         for user in pengguna:
             if user["username"].lower() == username and user["password"].lower() == password:
                 print("+====================================================================+")
