@@ -30,21 +30,21 @@ Terdapat 5 library yang kami gunakan yaitu:
 ### 👤 User
 Fitur yang tersedia untuk pengguna biasa:
 
-1. **Lihat Produk** - Menampilkan daftar produk yang tersedia.
-2. **Transaksi Pembelian** - Melakukan pembelian produk dengan saldo E-Money.
-3. **Lihat Saldo E-Money** - Memeriksa jumlah saldo yang tersisa.
-4. **Top Up Saldo E-Money** - Menambah saldo E-Money untuk digunakan dalam transaksi.
-5. **Cari Produk** - Mencari produk tertentu berdasarkan nama atau kategori.
-6. **Sorting Produk** - Mengurutkan produk berdasarkan harga atau popularitas.
+1. **Lihat Produk** : Menampilkan daftar produk yang tersedia.
+2. **Transaksi Pembelian** : Melakukan pembelian produk dengan saldo E-Money.
+3. **Lihat Saldo E-Money** : Memeriksa jumlah saldo yang tersisa.
+4. **Top Up Saldo E-Money** : Menambah saldo E-Money untuk digunakan dalam transaksi.
+5. **Cari Produk** : Mencari produk tertentu berdasarkan nama atau kategori.
+6. **Sorting Produk** : Mengurutkan produk berdasarkan harga atau popularitas.
 
 ### 🔧 Admin
 Fitur yang tersedia khusus untuk administrator:
 
-1. **Lihat Produk** - Menampilkan semua produk yang tersedia di toko.
-2. **Tambah Produk** - Menambahkan produk baru ke dalam toko.
-3. **Perbarui Produk** - Memperbarui informasi produk yang ada.
-4. **Hapus Produk** - Menghapus produk yang tidak tersedia lagi atau tidak dijual.
-5. **Cari Produk** - Mencari produk dengan cepat berdasarkan kriteria tertentu.
+1. **Lihat Produk** : Menampilkan semua produk yang tersedia di toko.
+2. **Tambah Produk** : Menambahkan produk baru ke dalam toko.
+3. **Perbarui Produk** : Memperbarui informasi produk yang ada.
+4. **Hapus Produk** : Menghapus produk yang tidak tersedia lagi atau tidak dijual.
+5. **Cari Produk** : Mencari produk dengan cepat berdasarkan kriteria tertentu.
 
 # Penggunaan Program
 
