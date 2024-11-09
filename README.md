@@ -144,14 +144,27 @@ jika 'n' maka akan menampilkan pesan diatas.
 
 ![Screenshot 2024-11-07 105536](https://github.com/user-attachments/assets/a10da00a-e218-45d4-bc23-ade6bbd8927b)
 
-Jika nomor 2 yang diinput di menu awal, maka akan di arahkan untuk registrasi telebih dahulu untuk membuat akun. Pertama masukkan nama akun yang ingin di registrasi.
+Jika nomor 2 yang diinput di menu utama, maka akan di arahkan untuk registrasi telebih dahulu untuk membuat akun. Pertama masukkan nama akun yang ingin di registrasi.
 
-**Gambar**
+![Screenshot 2024-11-09 192922](https://github.com/user-attachments/assets/bb536538-c1cb-4765-9594-de8d469f0ab9)
+
 Lalu masukkan password
 
-**Gambar**
+![Screenshot 2024-11-09 192949](https://github.com/user-attachments/assets/097700bc-6667-48dd-9a04-867bc89fe646)
 
-Jika berhasil maka akan muncul pesan akun sudah terdaftar.
+Jika berhasil maka akan muncul pesan di atas. Tekan enter untuk lanjut.
+
+![Screenshot 2024-11-09 193025](https://github.com/user-attachments/assets/232becfd-e8cd-42a8-b373-698bdda2e9ef)
+
+Apabila username diisi selain huruf dan angka, maka akan menampilkan pesan diatas.
+
+![Screenshot 2024-11-09 193112](https://github.com/user-attachments/assets/c1d39fc3-c80f-4c32-b19c-290b43e6f00e)
+
+Apabila password diisi selain huruf dan angka, maka akan menampilkan pesan diatas.
+
+![Screenshot 2024-11-09 193148](https://github.com/user-attachments/assets/a8bfc8e4-2451-4031-ab31-ee031a061d06)
+
+Apabila memasukkan username dan password lebih dari 10 karakter, maka akan menampilkan pesan diatas.
 
 ### Keluar Program
 
