@@ -157,6 +157,10 @@ Jika nomor 1 yang diinput maka akan menampilkan apa saja produk perhiasan dengan
 
 Jika nomor 2 yang diinput maka akan masuk ke menu menambahkan produk. Masukkan nama produk yang ingin ditambah.
 
+![Screenshot 2024-11-09 172244](https://github.com/user-attachments/assets/72d388cb-6a55-46c4-bc4a-7268c46ab497)
+
+Apabila pengguna tidak mengisi nama produk, maka akan menampilkan pesan diatas.
+
 ![Screenshot 2024-11-07 110540](https://github.com/user-attachments/assets/b1f8f9cc-17fe-4946-85a8-653e05a522c0)
 
 Jika nama produk sudah diinput maka diarahkan untuk memasukkan harga produk. Harga produk tidah boleh melebihi dari 10 digit.
