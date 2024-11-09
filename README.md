@@ -5,8 +5,8 @@
 | Nama                      | NIM           | Kelas             |
 |---------------------------|---------------|-------------------|
 | Indah Maramin Al Inayah   | 2409116086    | Sistem Informasi C |
+| Luthfi Daffa Purbaya      | 2409116102    | Sistem Informasi C |
 | Rizky Wahyu Dina Putri    | 2409116111    | Sistem Informasi C |
-| Luthfi Daffa Purbaya      | 374982479842739 | Sistem Informasi C |
 
 ## Deskripsi Program
 Program ini adalah sebuah sistem manajemen toko perhiasan. Terdapat 2 role yaitu admin dan user. Role admin dapat melakukan C.R.U.D. (Create, Read, Update dan Delete). Role user dapat melihat produk, transaksi pembelian, lihat saldo e-money, top up saldo e-money. cari produk dan sorting produk
