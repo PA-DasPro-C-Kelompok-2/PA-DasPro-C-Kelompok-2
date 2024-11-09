@@ -3,42 +3,6 @@
         "username": "abc",
         "password": "abc",
         "role": "user",
-        "saldo": 24600000
-    },
-    {
-        "username": "yyy",
-        "password": "yyy",
-        "role": "user",
-        "saldo": "10000000"
-    },
-    {
-        "username": "halo",
-        "password": "halo",
-        "role": "user",
-        "saldo": 37000000
-    },
-    {
-        "username": "nay",
-        "password": "nay",
-        "role": "user",
         "saldo": 0
-    },
-    {
-        "username": "HI",
-        "password": "HI",
-        "role": "user",
-        "saldo": 5000000
-    },
-    {
-        "username": "cc",
-        "password": "123",
-        "role": "user",
-        "saldo": 0
-    },
-    {
-        "username": "nama",
-        "password": "123",
-        "role": "user",
-        "saldo": 20000000
     }
 ]
