@@ -11,29 +11,37 @@
 ## Deskripsi Program
 Program ini adalah sebuah sistem manajemen toko perhiasan. Terdapat 2 role yaitu admin dan user. Role admin dapat melakukan C.R.U.D. (Create, Read, Update dan Delete). Role user dapat melihat produk, transaksi pembelian, lihat saldo e-money, top up saldo e-money. cari produk dan sorting produk
 
-## Library
+## 📚 Library yang Digunakan
 Terdapat 5 library yang kami gunakan yaitu:
-1. PrettyTable membuat tabel secara otomatis dan rapi
-2. os membuar program yang memerlukan manajemen file atau interaksi dengan sistem operasi dan membersihkan terminal.
-3. pwinput untuk membuat password tidak langsung terlihat
-4. json untuk menyimpan data yang bisa dibaca manusia dan memudahkan pertukaran data antar-sistem.
+1. **PrettyTable**
+   Membuat tabel secara otomatis dan rapi untuk tampilan data yang lebih mudah dibaca.
+2. **os**
+   Mengelola interaksi dengan sistem operasi, seperti membersihkan terminal dan manajemen file.
+3. **pwinput** 
+   Membuat password tidak langsung terlihat
+4. **json**
+   Menyimpan data yang bisa dibaca manusia dan memudahkan pertukaran data antar-sistem.
 
-## Fitur
-### User
-1. Lihat Produk
-2. Transaksi Pembelian
-3. Lihat Saldo E-Money
-4. Top Up Saldo E-Money
-5. Cari Produk
-6. Sorting Produk
+## ⚙️ Fitur
 
-### Admin
-1. Lihat Produk
-2. Tambah Produk
-3. Perbarui Produk
-4. Hapus Produk
-5. Cari Produk
+### 👤 User
+Fitur yang tersedia untuk pengguna biasa:
 
+1. **Lihat Produk** - Menampilkan daftar produk yang tersedia.
+2. **Transaksi Pembelian** - Melakukan pembelian produk dengan saldo E-Money.
+3. **Lihat Saldo E-Money** - Memeriksa jumlah saldo yang tersisa.
+4. **Top Up Saldo E-Money** - Menambah saldo E-Money untuk digunakan dalam transaksi.
+5. **Cari Produk** - Mencari produk tertentu berdasarkan nama atau kategori.
+6. **Sorting Produk** - Mengurutkan produk berdasarkan harga atau popularitas.
+
+### 🔧 Admin
+Fitur yang tersedia khusus untuk administrator:
+
+1. **Lihat Produk** - Menampilkan semua produk yang tersedia di toko.
+2. **Tambah Produk** - Menambahkan produk baru ke dalam toko.
+3. **Perbarui Produk** - Memperbarui informasi produk yang ada.
+4. **Hapus Produk** - Menghapus produk yang tidak tersedia lagi atau tidak dijual.
+5. **Cari Produk** - Mencari produk dengan cepat berdasarkan kriteria tertentu.
 
 # Penggunaan Program
 
