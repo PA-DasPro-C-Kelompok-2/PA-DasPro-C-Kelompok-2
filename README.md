@@ -83,7 +83,7 @@ Fitur yang tersedia khusus untuk administrator:
 <details>
 <summary><h3>🏠Menu Utama</h3></summary>
 
-![Screenshot 2024-11-07 104302](https://github.com/user-attachments/assets/95e179be-037f-4f43-953b-34599791cde5)
+![Screenshot 2024-11-09 190802](https://github.com/user-attachments/assets/4479a94c-4638-4963-878e-29c1e0d7353b)
 
 Tampilan yang pertama kali muncul saat menjalankan program adalah menu utama. Disini terdapat 3 pilihan yaitu Login, Registrasi dan Keluar.
 
@@ -92,12 +92,20 @@ Tampilan yang pertama kali muncul saat menjalankan program adalah menu utama. Di
    
 ### Login Admin
 
-![Screenshot 2024-11-07 104521](https://github.com/user-attachments/assets/26278fc1-bdc1-43af-a65b-6e9fe2eb34ef)
+![Screenshot 2024-11-09 190845](https://github.com/user-attachments/assets/e064fdab-9d0b-47f3-82c3-61616b3b7dc9)
 
 Jika ingin masuk ke menu admin masukkan:
-nama akun: admin
+username: admin
 password: admin123
-Jika benar maka akan di arahkan ke menu admin.
+Jika benar, tekan enter untuk melanjutkan ke menu.
+
+![Screenshot 2024-11-09 191320](https://github.com/user-attachments/assets/27b45081-215a-426b-8b66-7107d8ec06dc)
+
+Apabila mengosongkan username, maka akan menampilkan pesan diatas.
+
+![Screenshot 2024-11-09 191417](https://github.com/user-attachments/assets/61f46563-667a-4cd5-8cb3-f899d6eb3dc5)
+
+Apabila mengosongkan password, maka akan menampilkan pesan di atas.
 
 ### Login User
 
@@ -109,9 +117,25 @@ Jika nomor 1 yang di input di menu awal, maka akan diarahkan untuk login. Pertam
 
 Lalu masukkan password yang sesuai dengan nama akun yang telah diinput sebelumnya.
 
-![Screenshot 2024-11-07 105012](https://github.com/user-attachments/assets/f0293042-1879-4acf-aedf-f5d721960126)
+![Screenshot 2024-11-09 191235](https://github.com/user-attachments/assets/80d3baaa-aba4-48e9-82cd-f9fa80c20c2c)
 
-Jika nama akun dan password yang di input benar maka akan muncul login sukses dan akan di arahkan ke menu user.
+Jika nama akun dan password yang di input benar maka akan muncul login berhasil. Tekan enter untuk lanjut ke menu.
+
+![Screenshot 2024-11-09 191320](https://github.com/user-attachments/assets/31abe5b0-1459-42f3-816c-d56452ab37d4)
+
+Apabila mengosongkan username, maka akan menampilkan pesan di atas.
+
+![Screenshot 2024-11-09 191417](https://github.com/user-attachments/assets/61f46563-667a-4cd5-8cb3-f899d6eb3dc5)
+
+Apabila mengosongkan password, maka akan menampilkan pesan di atas.
+
+![Screenshot 2024-11-09 191731](https://github.com/user-attachments/assets/2bc25bb1-af28-4c34-81d7-3177e9061815)
+
+Apabila akun belum terdaftar, maka akan menampilkan pesan diatas dan memilih ingin mendaftar apa tidak. jika 'y' akan diarahkan untuk registrasi.
+
+![Screenshot 2024-11-09 191845](https://github.com/user-attachments/assets/7ba97bb7-9350-4ef4-a890-d5b3742bdb2d)
+
+jika 'n' maka akan menampilkan pesan diatas.
 
 ### Registrasi
 
