@@ -24,8 +24,6 @@ Terdapat 5 library yang kami gunakan yaitu:
 
 ## ⚙️ Fitur
 
-
-
 ### 👤 User
 Fitur yang tersedia untuk pengguna biasa:
 
@@ -47,7 +45,8 @@ Fitur yang tersedia khusus untuk administrator:
 
 # Penggunaan Program
 
-## Menu Utama
+<details>
+<summary><h3>Menu Utama</h3></summary>
 
 ![Screenshot 2024-11-07 104302](https://github.com/user-attachments/assets/95e179be-037f-4f43-953b-34599791cde5)
 
