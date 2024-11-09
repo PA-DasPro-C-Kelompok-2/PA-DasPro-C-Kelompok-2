@@ -97,6 +97,8 @@ Jika berhasil maka akan muncul pesan akun sudah terdaftar.
 
 Jika nomor 3 yang di input di menu utama, maka program akan berhenti dan menampilkan pesan di atas.
 
+</details>
+
 <details>
 <summary><h3>Menu Admin</h3></summary>
 
