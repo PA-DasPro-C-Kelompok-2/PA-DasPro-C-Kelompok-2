@@ -50,7 +50,32 @@ Fitur yang tersedia khusus untuk administrator:
 
 <details>
   <summary>1. Flowchart Menu Utama</summary>
-  <img src="https://github.com/user-attachments/assets/d0655a73-b9c6-4604-be4e-ce8040b169f4" alt="">
+  <img src="https://github.com/user-attachments/assets/f935e536-ad8d-4683-aeea-c668910f517b" alt="">
+</details>
+
+<details>
+  <summary>2. Flowchart Login Admin</summary>
+  <img src="https://github.com/user-attachments/assets/7f368320-8b2c-444b-8356-e817fbdc1acd" alt="">
+</details>
+
+<details>
+  <summary>3. Flowchart Menu Admin</summary>
+  <img src="https://github.com/user-attachments/assets/b4ff04bb-04aa-48e7-b649-2560a7dc4669" alt="">
+</details>
+
+<details>
+  <summary>4. Flowchart Login User</summary>
+  <img src="https://github.com/user-attachments/assets/3923fd84-c5c8-44de-990a-e09b6cedf0f6" alt="">
+</details>
+
+<details>
+  <summary>5. Flowchart Menu User</summary>
+  <img src="https://github.com/user-attachments/assets/99315b84-ed56-492e-a720-6c5bc0ea24bc" alt="">
+</details>
+
+<details>
+  <summary>6. Flowchart Keluar Program</summary>
+  <img src="https://github.com/user-attachments/assets/da3118cf-2e52-4081-ac71-95105173ea86" alt="">
 </details>
 
 # Penggunaan Program
