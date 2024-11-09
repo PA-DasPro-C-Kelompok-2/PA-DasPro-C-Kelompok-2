@@ -95,8 +95,11 @@ Tampilan yang pertama kali muncul saat menjalankan program adalah menu utama. Di
 ![Screenshot 2024-11-09 190845](https://github.com/user-attachments/assets/e064fdab-9d0b-47f3-82c3-61616b3b7dc9)
 
 Jika ingin masuk ke menu admin masukkan:
+
 username: admin
+
 password: admin123
+
 Jika benar, tekan enter untuk melanjutkan ke menu.
 
 ![Screenshot 2024-11-09 191320](https://github.com/user-attachments/assets/27b45081-215a-426b-8b66-7107d8ec06dc)
