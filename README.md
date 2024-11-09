@@ -137,21 +137,25 @@ Jika nomor 3 yang di input di menu utama, maka program akan berhenti dan menampi
 <details>
 <summary><h3>🔧Menu Admin</h3></summary>
 
-![Screenshot 2024-11-07 110105](https://github.com/user-attachments/assets/9c561710-95c8-4b5c-98dd-f53520f90c75)
+![Screenshot 2024-11-09 171743](https://github.com/user-attachments/assets/cb464432-91ca-412e-a5b3-32af19cf975b)
 
-Berikut adalah menu admin jika di menu login memasukkan nama dan password admin.
+Masukkan usermame admin dan password admin123. Tekan enter untuk melanjutkan ke menu
+
+![Screenshot 2024-11-09 172026](https://github.com/user-attachments/assets/24979642-b8e1-4fff-920e-4d98258324a1)
+
+Berikut adalah menu admin.
 
 ### Tampilkan Produk
 
-![Screenshot 2024-11-07 110217](https://github.com/user-attachments/assets/304f34d8-81e6-4494-a637-4298cb79864e)
+![Screenshot 2024-11-09 172108](https://github.com/user-attachments/assets/b6576d93-2bdf-416a-b63a-483ca65eef00)
 
-Jika nomor 1 yang diinput maka akan menampilkan apa saja produk perhiasan dengan tabel yang rapi.
+Jika nomor 1 yang diinput maka akan menampilkan apa saja produk perhiasan dengan tabel yang rapi. Tekan enter untuk melanjutkan.
 
 ### Tambah Produk
 
 ![Screenshot 2024-11-07 110506](https://github.com/user-attachments/assets/606dbf4f-5e09-495d-9d43-55bce58010e9)
 
-Jika nomor 2 yang diinput maka akan masuk ke menu menambahkan produk. Masukkan nama produk yang ingin ditambah
+Jika nomor 2 yang diinput maka akan masuk ke menu menambahkan produk. Masukkan nama produk yang ingin ditambah.
 
 ![Screenshot 2024-11-07 110540](https://github.com/user-attachments/assets/b1f8f9cc-17fe-4946-85a8-653e05a522c0)
 
