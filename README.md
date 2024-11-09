@@ -198,6 +198,8 @@ Gambar
 
 Jika nomor 6 yang diinput maka akan kembali ke menu utama.
 
+</details>
+
 <details>
 <summary><h3>Menu User</h3></summary>
 
